@@ -32,10 +32,10 @@ const props = defineProps({
     options: {
         theme: {
             controlsView: "standard",
-            active: "light",
+            active: "dark",
             light: {
                 color: '#3D4852',
-                backgroundColor: '#fff',
+                backgroundColor: '#000',
                 opacity: '0.7',
             },
             dark: {
@@ -55,7 +55,7 @@ const props = defineProps({
     <nav class="bg-white">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="/" class="flex items-center">
-                <img src="img/logo_Web.png" class="h-8 mr-3" alt=" Logo" />
+                <img src= "img/logo.png" class="h-8 mr-3" alt=" Logo" />
                 <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-dark">Dosen AI</span>
             </a>
             <div class="flex md:order-2">
@@ -79,7 +79,7 @@ const props = defineProps({
                     </svg>
                 </button>
             </div>
-            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+            <div class="hidden w-full md:block md:w-auto" id="navbar fixed-top">
                 <ul
                     class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 dark:border-gray-700">
                     <li>
@@ -190,7 +190,7 @@ const props = defineProps({
                         <Logo />
                     </div>
                     <div className="text-sm text-gray-600">
-                        <img src="img/logo_Web.png" class="h-8 mr-3" alt=" Logo" />
+                        <img src="img/logo.png" class="h-8 mr-3" alt=" Logo" />
                         <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-dark">Dosen AI</span>
                     </div>
                 </div>
