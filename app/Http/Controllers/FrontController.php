@@ -11,6 +11,7 @@ use Illuminate\Support\Facades\Route;
 
 class FrontController extends Controller
 {
+    // coba push
     /**
      * Menampilkan halaman daftar post.
      *
